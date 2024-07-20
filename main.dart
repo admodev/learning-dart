@@ -1,3 +1,14 @@
+// Libraries imports
+//
+// core libraries
+import 'dart:math';
+
+// Importing libraries from external packages
+//import 'package:test/test.dart';
+
+// Importing files
+//import 'path/to/my_other_file.dart';
+
 void main() {
   // Variable Types
   String name = 'Adolfo';
@@ -45,4 +56,9 @@ void main() {
 
   // Shorthand (arrow) function syntax
   fruits.where((fruitName) => fruitName.contains('mon')).forEach(print);
+
+  // Use of the math library
+  var randomNumber = Random().nextInt(10).toString();
+
+  print(randomNumber);
 }
